@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuleiro de xadrez</title>
+
+    <style>
+        
+        body{
+            background-image: url(wood.jfif);
+        }
+
+        td{
+         border: 1px;
+         border-color: black;
+         border-style: solid;
+         width: 100px;
+         height: 100px;
+         
+        }
+
+
+        table{
+            padding-left: 20px;
+            padding-top: 20px;
+            text-align: center;
+        }
+
+        #cor1 {
+            background-color: blanchedalmond;
+        }
+
+
+        #cor2 {
+            background-color: brown;
+        }
+
+        #cor1 :hover {
+            background-color: black;
+        }
+
+
+        #cor2 :hover{
+            background-color: white;
+        }
+
+
+        img{
+            width: 90px;
+            height: 90px;
+        }
+
+
+    
+
+        #coordenadaY{
+        border: 0px;
+         width: 100px;
+         height: 100px;
+        }
+
+        #coordenadaX {
+            border: 0px;
+
+        }
+
+       
+
+    </style>
+
+</head>
+
+<body>
+       <table>
+        <tbody>
+            <tr id="coordenadaX">
+                <td id="coordenadaX"></td>
+                <td id="coordenadaX">A</td>
+                <td id="coordenadaX">B</td>
+                <td id="coordenadaX">C</td>
+                <td id="coordenadaX">D</td>
+                <td id="coordenadaX">E</td>
+                <td id="coordenadaX">F</td>
+                <td id="coordenadaX">G</td>
+                <td id="coordenadaX">H</td>
+            
+            </tr>
+        <tr>
+            <td id="coordenadaY">8</td>
+            <td id="cor1"><img src="b_rook_1x.png"></td>
+            <td id="cor2"><img src="b_knight_1x.png"></td>
+            <td id="cor1"><img src="b_bishop_1x.png"></td>
+            <td id="cor2"><img src="b_queen_1x.png"></td>
+            <td id="cor1"><img src="b_king_1x.png"></td>
+            <td id="cor2"><img src="b_bishop_1x.png"></td>
+            <td id="cor1"><img src="b_knight_1x.png"></td>
+            <td id="cor2"><img src="b_rook_1x.png"></td>
+        </tr>
+
+        <tr>
+            <td id="coordenadaY">7</td>
+            <td id="cor2"><img src="b_pawn_1x.png"></td>
+            <td id="cor1"><img src="b_pawn_1x.png"></td>
+            <td id="cor2"><img src="b_pawn_1x.png"></td>
+            <td id="cor1"><img src="b_pawn_1x.png"></td>
+            <td id="cor2"><img src="b_pawn_1x.png"></td>
+            <td id="cor1"><img src="b_pawn_1x.png"></td>
+            <td id="cor2"><img src="b_pawn_1x.png"></td>
+            <td id="cor1"><img src="b_pawn_1x.png"></td>
+        </tr>
+        <tr>
+            <td id="coordenadaY">6</td>
+            <td id="cor1"></td>
+            <td id="cor2"></td>
+            <td id="cor1"></td>
+            <td id="cor2"></td>
+            <td id="cor1"></td>
+            <td id="cor2"></td>
+            <td id="cor1"></td>
+            <td id="cor2"></td>
+        </tr>
+        <tr>
+            <td id="coordenadaY">5</td>
+            <td id="cor2"></td>
+            <td id="cor1"></td>
+            <td id="cor2"></td>
+            <td id="cor1"></td>
+            <td id="cor2"></td>
+            <td id="cor1"></td>
+            <td id="cor2"></td>
+            <td id="cor1"></td>
+        </tr>
+        <tr>
+            <td id="coordenadaY">4</td>
+            <td id="cor1"></td>
+            <td id="cor2"></td>
+            <td id="cor1"></td>
+            <td id="cor2"></td>
+            <td id="cor1"></td>
+            <td id="cor2"></td>
+            <td id="cor1"></td>
+            <td id="cor2"></td>
+        </tr>
+
+        <tr>
+            <td id="coordenadaY">3</td>
+            <td id="cor2"></td>
+            <td id="cor1"></td>
+            <td id="cor2"></td>
+            <td id="cor1"></td>
+            <td id="cor2"></td>
+            <td id="cor1"></td>
+            <td id="cor2"></td>
+            <td id="cor1"></td>
+        </tr>
+        <tr>
+            <td id="coordenadaY">2</td>
+            <td id="cor1"><img src="w_pawn_1x.png"></td>
+            <td id="cor2"><img src="w_pawn_1x.png"></td>
+            <td id="cor1"><img src="w_pawn_1x.png"></td>
+            <td id="cor2"><img src="w_pawn_1x.png"></td>
+            <td id="cor1"><img src="w_pawn_1x.png"></td>
+            <td id="cor2"><img src="w_pawn_1x.png"></td>
+            <td id="cor1"><img src="w_pawn_1x.png"></td>
+            <td id="cor2"><img src="w_pawn_1x.png"></td>
+        </tr>
+        <tr>
+            <td id="coordenadaY">1</td>
+            <td id="cor2"><img src="w_rook_1x.png"></td>
+            <td id="cor1"><img src="w_knight_1x.png"></td>
+            <td id="cor2"><img src="w_bishop_1x.png"></td>
+            <td id="cor1"><img src="w_king_1x.png"></td>
+            <td id="cor2"><img src="w_queen_1x.png"></td>
+            <td id="cor1"><img src="w_bishop_1x.png"></td>
+            <td id="cor2"><img src="w_knight_1x.png"></td>
+            <td id="cor1"><img src="w_rook_1x.png"></td>
+        </tr>
+        </tbody>
+       </table>
+       <br>
+</body>
+
+</html>

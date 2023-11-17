@@ -1,0 +1,89 @@
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    position: absolute;
+    /*opacity: 0.3;*/
+}
+
+.header{
+    width: 100%;
+    height: 15%;
+    top: 0;
+    left: 0;
+    position: relative;
+    background-color: #0033a1;
+}
+
+.logo{
+    width: 10%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #33beff7a;
+}
+
+.img-logo{
+    max-width: 120px;
+    max-height: 70px;
+    width: auto;
+    height: auto;
+}
+
+
+.menu-left{
+    width: 10%;
+    height: 80%;
+    top:0;
+    left: 0;
+    position: relative;
+    background-color: #33beff;
+}
+
+.ul-menu{
+    position: absolute;
+    color: white;
+    list-style-type: square;
+    line-height: 30px;
+}
+
+a{
+    color: rgb(46, 44, 44);
+    text-decoration: none;
+}
+
+.section{
+    width: 90%;
+    height: 80%;
+    top: 15%;
+    right: 0;
+    position: absolute;
+    background-color: #ffffff;
+}
+
+.conteudo{
+    color: rgb(95, 95, 95);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin: auto;
+    transform: translate(-50%,-50%);
+}
+
+.footer{
+    width: 100%;
+    height: 5%;
+    bottom: 0;
+    left: 0;
+    position: relative;
+    background-color: #0033a1;
+    text-align: center;
+}

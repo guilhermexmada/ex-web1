@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    height: 100%;
+}
+
+.pai{
+    background-color: rgb(127, 248, 13);
+    height: 100%;
+
+    /*Retire display flex para que as divs voltem ao comportamento de bloco*/
+    display: flex;
+    flex-direction: row; /*row = linha ou column = coluna*/
+    /*justify content é o alinhamento HORIZONTAL e align items é o alinhamento VERTICAL*/
+    justify-content: space-between; /*alinhamento horizontal, space-between, space-around, flex-start, flex-end ou center*/
+    align-items: center; /*alinhamento vertical, flex-start, flex-end ou center*/
+}
+
+.filha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    width: 100%;
+    height: 200px;
+    border: 1px solid white;
+    flex-wrap: wrap;
+}
