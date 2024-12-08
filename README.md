@@ -1,2 +1,2 @@
 # programação-web-1
- atividades da disciplina de programação web 1 etec registro sp
+Aulas de desenvolvimento web básico na ETEC com professor Diego Max
